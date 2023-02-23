@@ -58,6 +58,7 @@ grid-column-start:3 ;
 
 .image-content {
   position: absolute;
+  display: none;
   bottom: 0;
   left: 0;
   right: 0;
@@ -73,4 +74,19 @@ grid-column-start:3 ;
   margin: 0;
   font-size: 14px;
   line-height: 1.5;
+}
+
+.image-container:hover .image-content {
+  display: block;
+  transform: translateY(75px);
+  animation: content-animation 0.5s ease-in-out forwards;
+}
+
+@keyframes content-animation {
+  from {
+    transform: translateY(100px);
+  }
+  to{
+    transform: translateY(0px);
+  }
 }

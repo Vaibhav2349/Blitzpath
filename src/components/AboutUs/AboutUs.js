@@ -1,5 +1,5 @@
 import styles from "./AboutUs.module.css";
-import testImage from "../../images/testImage.png";
+import testImage from "../../images/animate.png";
 import animte2 from  "../../images/animte2.png";
 import animate3 from "../../images/animate3.png";
 import { AnimationOnScroll } from "react-animation-on-scroll";
