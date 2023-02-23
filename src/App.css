@@ -4,7 +4,7 @@
     position: fixed;
     right: 8px;
     top: 40%;
-    z-index: 1;
+    z-index: 1000;
 }
 .social li a img{
     max-width: 20px;
