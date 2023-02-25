@@ -6,9 +6,9 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css/animate.min.css";
 const AboutUs = () => {
   return (
-    <div>
+    <div className={styles.about}>
       <div className={styles.craouselContainer}>
-        <h1>Learn About Us</h1>
+        <h1>About Us</h1>
         <div className={styles.type1}>
           <div className={styles.img}>
             <AnimationOnScroll

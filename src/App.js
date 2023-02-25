@@ -16,14 +16,14 @@ function App() {
       <Services />
       <div>
         <ul className="social">
-          <li><a href=""><img src={facebook} alt="" /></a></li>
-          <li><a href=""><img src={instagram} alt="" /></a></li>
-          <li><a href=""><img src={linkdin} alt="" /></a></li>
+          {/* <li><a href=""><img src={facebook} alt="" /></a></li> */}
+          <li><a href="https://www.instagram.com/blitzpath.innovations/?utm_medium=copy_link"><img src={instagram} alt="" /></a></li>
+          <li><a href="https://www.linkedin.com/company/blitzpath-innovations/"><img src={linkdin} alt="" /></a></li>
         </ul>
       </div>
       <AboutUs />
       <LastPage />
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

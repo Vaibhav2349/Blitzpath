@@ -12,7 +12,7 @@ import { EffectCoverflow, Navigation, Pagination } from "swiper";
 import { swipeMove } from "react-slick/lib/utils/innerSliderUtils";
 const LastPage = () => {
   return (
-    <>    <div className="heading" style={{position:'absolute', left:'43%'}}><h1>Customer Stories</h1></div>
+    <>    <div className={styles.heading}><h1>Customer Stories</h1></div>
     <div className={styles.containerstories}>
     
     <div className={styles.container}>

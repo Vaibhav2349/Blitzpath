@@ -1,4 +1,7 @@
-craouselContainer {
+.about{
+  width: 100%;
+}
+.craouselContainer {
   width: 80%;
   margin: auto;
   height: auto;
@@ -11,6 +14,11 @@ craouselContainer {
   row-gap: 4rem;
   position: relative;
   overflow: hidden;
+} 
+
+.craouselContainer h1{
+  color: white;
+  font-size: 50px;
 }
 .type1,
 .type2 {
@@ -31,8 +39,36 @@ craouselContainer {
   border-radius: 8px;
 }
 .content {
+  color: white;
   flex: 2;
   padding: 1rem;
   border-radius: 8px;
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 400px) {
+  .craouselContainer{
+    width:82%;
+    margin-bottom: 10px;
+  }
+  .craouselContainer h1{
+    color: white;
+    font-size: 28px;
+    padding: 5px;
+
+  }
+  .content {
+    flex: 1;
+    color: white;
+    padding: 0px;
+    border-radius: 8px;
+    font-size: 10px;
+    
+  }
+  .type1,
+.type2 {
+
+  column-gap: 10px;
+
+}
 }

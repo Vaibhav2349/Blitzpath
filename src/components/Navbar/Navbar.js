@@ -14,7 +14,7 @@ function Navbar() {
             <img src={logo} alt="" />
             </div>
         </div>
-        <nav>
+        <nav className='desktop-device'>
             <ul  className='navlink'>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services And Products</a></li>
@@ -24,6 +24,26 @@ function Navbar() {
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+        <nav className='mobile-device'>
+            <div class="nav-container">
+              <div class="dropdown">
+                <button class="dropbtn">
+                <div>
+                <div className='dropdown1'></div>
+                <div className='dropdown1'></div>
+                <div className='dropdown1'></div>
+                  </div></button>
+                <div class="dropdown-content">
+                  <a href="#">Home</a>
+                  <a href="#">Services and Products</a>
+                  <a href="#">Customer Stories</a>
+                  <a href="#">About Us</a>
+                  <a href="#">Careers</a>
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
     </div>
   )

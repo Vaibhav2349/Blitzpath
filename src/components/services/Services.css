@@ -1,7 +1,8 @@
 .Heading{
   margin: 0 auto;
   margin-top: 30px;
-  padding-top: 20px;
+  padding-top: 30px;
+  color: white;
   text-align: center;
   font-size: 36px;
 }
@@ -24,6 +25,8 @@ grid-row-end:3;
 }
 .row1{
 grid-column-start:3 ;
+grid-row-start: 1;
+grid-row-end: 3;
 }
 .image-section {
   display: grid;
@@ -89,4 +92,31 @@ grid-column-start:3 ;
   to{
     transform: translateY(0px);
   }
+} 
+
+@media screen and (max-width: 400px) {
+  .Heading{
+    margin-top: 0px;
+    font-size: 20px;
+    color: white;
+  }
+  .services{
+    margin-top: 30px;
+  }
+  section.image-section{
+    height:600px;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 1fr 1fr 1.5fr 1.5fr;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+    .row1{
+      grid-row-start: 1;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      }
+    .mobile-grid{
+       grid-column-start: 1;
+       grid-column-end: 3;
+    }
 }

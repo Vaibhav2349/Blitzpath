@@ -71,21 +71,21 @@ function Services() {
                   <p>{item[1].content} </p>
                 </div>
               </div>
-              <div class="image-container">
+              <div class="image-container mobile-grid">
                 <img src={item[0].src} alt={item[0].alt}/>
-                <div class="image-content">
+                <div class="image-content ">
                   <h3>{item[0].heading}</h3>
                   <p>{item[0].content} </p>
                 </div>
               </div>
-              <div class="image-container row row1">
+              <div class="image-container row1">
                 <img src={item[2].src} alt={item[2].alt}/>
                 <div class="image-content">
                   <h3>{item[2].heading}</h3>
                   <p>{item[2].content} </p>
                 </div>
               </div>
-              <div class="image-container">
+              <div class="image-container mobile-grid">
                 <img src={item[3].src} alt={item[3].alt}/>
                 <div class="image-content">
                   <h3>{item[3].heading}</h3>
